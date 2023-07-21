@@ -1,0 +1,27 @@
+h1 {
+	font-family: Tahoma;
+	font-size: 1.8em;
+	width: 240px;
+	border-bottom: 2px solid orange;
+	border-right: 2px solid purple;
+
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+	
+}
+
+img {
+	height: 300px ;
+	width: 600px;
+	margin: 10px;
+	transition: all 3s ;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
